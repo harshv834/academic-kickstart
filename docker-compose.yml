@@ -1,0 +1,19 @@
+version: "3.0"
+services:
+    hugo_build:
+        build: .
+        entrypoint: ["/bin/bash","/site/build_script.sh"]
+        volumes:
+            - "./:/site/"
+    hugo_serve:
+        build: .
+        entrypoint: ["/bin/bash","/site/deploy_script.sh"]
+        volumes:
+            - "./:/site/"
+        ports:
+            - 1313:1313
+
+
+
+
+
