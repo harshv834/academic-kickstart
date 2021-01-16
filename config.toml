@@ -53,19 +53,18 @@ enableGitInfo = false
 
   # Your details.
   name = "Harshvardhan"
-  role = "Senior Undergraduate"
+  role = "Master's Student"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Indian Institute of Technology, Kanpur", url = "www.iitk.ac.in" } ]
+  organizations = [ { name = "EPFL", url = "www.epfl.ch" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "harshv834@gmail.com"
-  address = "F324, Hall - 1, IIT Kanpur, Uttar Pradesh, India"
-  phone = "+917388783497"
+  address = "Lausanne, Switzerland"
   skype = "harshv834_1"
   telegram = ""
   keybase = ""  # Your keybase.io username.

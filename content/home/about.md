@@ -10,21 +10,17 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
     "Machine Learning",
     "Learning Theory",
     "Optimization",
-    "Information Theory",
-    "Signal Processing"
   ]
 
 # List your qualifications (such as academic degrees).
 
 [[education.courses]]
-  course = "BTech in Electrical Engineering, Minor in AI"
-  institution = "Indian Institute of Technology, Kanpur"
-  year = 2019
- 
+  course = ["BTech in Electrical Engineering, Minor in AI" ,"MS in Data Science"] 
+  institution = ["Indian Institute of Technology, Kanpur","Ecole Polytechnique Federale de Lausanne (EPFL)"]
+  year = [2019, 2021]
 +++
 
 # Biography
