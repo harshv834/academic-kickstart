@@ -17,5 +17,4 @@ ARG HUGO_VERSION=0.80.0
 ARG EXTENDED_URL=extended_
 ARG URL=https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${EXTENDED_URL}${HUGO_VERSION}_Linux-64bit.deb
 RUN curl -sSL "${URL}" > /tmp/hugo.deb && dpkg --force architecture -i /tmp/hugo.deb
-EXPOSE 1313
 WORKDIR /site
