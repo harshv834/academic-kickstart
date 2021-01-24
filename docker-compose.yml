@@ -1,0 +1,15 @@
+version: "3.0"
+services:
+    hugo:
+        container_name : hugo
+        build: .
+        entrypoint: ["/bin/bash","/site/deploy_script.sh"]
+        volumes:
+            - "./:/site/"
+        ports:
+            - 1313:1313
+
+
+
+
+
