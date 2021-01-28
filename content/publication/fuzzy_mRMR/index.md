@@ -42,12 +42,14 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+ - name: Paper
+   url: https://ieeexplore.ieee.org/document/8491683
+ - name: code
+   url: https://github.com/harshv834/Fuzzy_mRMR
 
 url_pdf: 'https://ieeexplore.ieee.org/document/8491683'
-url_code: 'https://github.com/harshv834/Fuzzy_mRMR'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -68,7 +70,7 @@ url_video: ''
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- example
+- fuzzy
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
