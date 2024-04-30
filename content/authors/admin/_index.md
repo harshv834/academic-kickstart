@@ -6,12 +6,12 @@ title: Harshvardhan
 superuser: true
 
 # Role/position/tagline
-role: MS Data Science
+role: PhD CSE
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: EPFL
-  url: https://www.epfl.ch/
+- name: UCSD
+  url: https://www.ucsd.ch/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include machine learning, optimization and learning theory.
@@ -26,6 +26,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: PhD in Computer Science
+    institution: University of California, San Diego (UCSD)
+    year: 2026
   - course: MS in Data Science
     institution: Ecole Polytechnique Federale de Lausanne (EPFL)
     year: 2021
@@ -41,22 +44,21 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:harshv834@gmail.com'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/Harshv834
-  label: Follow me on Twitter
-  display:
-    header: true
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.co.in/citations?user=sov6ZrkAAAAJ&hl=en
-
 - icon: github
   icon_pack: fab
   link: https://github.com/harshv834
 - icon: cv
   icon_pack: ai
   link: media/cv.pdf
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/Harshv834
+#   label: Follow me on Twitter
+#   display:
+#     header: true
 
 
 # Link to a PDF of your resume/CV.
@@ -70,5 +72,5 @@ email: "harshv834@gmail.com"
 highlight_name: true
 ---
 
-Harshvardhan is a Master's in Data Science Student at EPFL, working on optimization methods in machine learning.
+I'm a PhD student in CSE at UCSD working on optimization and learning theory.
 

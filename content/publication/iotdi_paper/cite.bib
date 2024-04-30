@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3576842.3582377,
+author = {Yu, Xiaofan and Cherkasova, Lucy and Vardhan, Harsh and Zhao, Quanling and Ekaireb, Emily and Zhang, Xiyuan and Mazumdar, Arya and Rosing, Tajana},
+title = {Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks},
+year = {2023},
+isbn = {9798400700378},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3576842.3582377},
+doi = {10.1145/3576842.3582377},
+abstract = {Federated Learning (FL) has gained increasing interest in recent years as a distributed on-device learning paradigm. However, multiple challenges remain to be addressed for deploying FL in real-world Internet-of-Things (IoT) networks with hierarchies. Although existing works have proposed various approaches to account data heterogeneity, system heterogeneity, unexpected stragglers and scalibility, none of them provides a systematic solution to address all of the challenges in a hierarchical and unreliable IoT network. In this paper, we propose an asynchronous and hierarchical framework (Async-HFL) for performing FL in a common three-tier IoT network architecture. In response to the largely varied networking and system processing delays, Async-HFL employs asynchronous aggregations at both the gateway and cloud levels thus avoids long waiting time. To fully unleash the potential of Async-HFL in converging speed under system heterogeneities and stragglers, we design device selection at the gateway level and device-gateway association at the cloud level. Device selection module chooses diverse and fast edge devices to trigger local training in real-time while device-gateway association module determines the efficient network topology periodically after several cloud epochs, with both modules satisfying bandwidth limitations. We evaluate Async-HFL’s convergence speedup using large-scale simulations based on ns-3 and a network topology from NYCMesh. Our results show that Async-HFL converges 1.08-1.31x faster in wall-clock time and saves up to 21.6\% total communication cost compared to state-of-the-art asynchronous FL algorithms (with client selection). We further validate Async-HFL on a physical deployment and observe its robust convergence under unexpected stragglers.},
+booktitle = {Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation},
+pages = {236–248},
+numpages = {13},
+keywords = {Hierarchical Sensor and IoT Networks, Federated Learning, Asynchronous FL.},
+location = {<conf-loc>, <city>San Antonio</city>, <state>TX</state>, <country>USA</country>, </conf-loc>},
+series = {IoTDI '23}
+}

@@ -1,24 +1,24 @@
 ---
-title: "Stochastic compositional gradient descent under compositional constraints"
+title: "An Improved Federated Clustering Algorithm with Model-based Clustering"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Srujan T Thomdapu
-- Harshvardhan
-- Ketan Rajawat
+- Harsh Vardhan
+- Avishek Ghosh
+- Arya Mazumdar
 
 # Author notes (optional)
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2023-12-17T00:00:00Z"
+date: "2024-03-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-12-17T00:00:00Z"
+publishDate: "2023-03-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -27,8 +27,8 @@ publishDate: "2023-12-17T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE Transactions on Signal Processing 
-publication_short: TSP
+publication: Transactions on Machine Learning Research 
+publication_short: TMLR 2024
 
 #abstract: This work studies constrained stochastic optimization problems where the objective and constraint functions are convex and expressed as compositions of stochastic functions. The problem arises in the context of fair classification, fair regression, and the design of queuing systems. Of particular interest is the large-scale setting where an oracle provides the stochastic gradients of the constituent functions, and the goal is to solve the problem with a minimal number of calls to the oracle. The problem arises in fair classification/regression and in the design of queuing systems. Owing to the compositional form, the stochastic gradients provided by the oracle do not yield unbiased estimates of the objective or constraint gradients. Instead, we construct approximate gradients by tracking the inner function evaluations, resulting in a quasi-gradient saddle point algorithm. We prove that the proposed algorithm is guaranteed to find the optimal and feasible solution almost surely. We further establish that the proposed algorithm requires O(1/ϵ4) data samples in order to obtain an ϵ-approximate optimal point while also ensuring zero constraint violation. The result matches the sample complexity of the stochastic compositional gradient descent method for unconstrained problems and improves upon the best-known sample complexity results for the constrained settings. The efficacy of the proposed algorithm is tested on both fair classification and fair regression problems. The numerical results show that the proposed algorithm outperforms the state-of-the-art algorithms in terms of the convergence rate.
 
@@ -46,8 +46,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10048585'
-url_code: ''
+url_pdf: 'https://openreview.net/forum?id=1ZGA5mSkoB'
+url_code: 'https://github.com/harshv834/sr_fca'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -67,8 +67,7 @@ url_video: ''
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- CSCGD
+#projects:
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

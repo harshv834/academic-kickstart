@@ -22,12 +22,21 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
+  - title: PhD CSE
+    company: UCSD
+    company_url: 'www.ucsd.edu'
+    location: San Diego, California
+    date_start: '2021-09-28'
+    date_end: 
+    description:
+
   - title: MS Data Science
     company: EPFL
     company_url: 'www.epfl.ch'
     location: Lausanne, Switzerland
     date_start: '2019-09-09'
-    date_end: ''
+    date_end: '2021-06-30'
     description:
   - title: BTech EE
     company: IIT Kanpur
